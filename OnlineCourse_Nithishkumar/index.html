@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Online course form</title>
+        <script type="text/javascript" src="script/main.js"></script>
+        <link rel="stylesheet" href="style/styles.css"/>
+    </head>
+    <body>
+        <h1>Online Course Form</h1>
+        <div id="user">
+        <button onclick="newUser()">New User</button><br><br>
+        <button onclick="UserId()">Login</button><br><br>
+        </div>
+        <div id="userdetails">
+            <label>UserName:</label>
+            <input id="uname" type="text"/><br><br>
+            <label>Age:</label>
+            <input id="uage"type="text"/><br><br>
+            <label>Phone Number: </label>
+            <input id="uph"type="text"/><br><br>
+            <button onclick="userDetails()">Submit</button><br><br>
+        </div>
+        <div id="login">
+            <label>User ID:</label>
+            <input type="text"/><br><br>
+            <button onclick="selectOption()">LogIn</button><br><br>
+        </div>
+        <div id="option">
+            <button onclick="courseOption()">Available Course</button><br><br>
+            <button onclick="display()">Enrolled Course</button><br><br>
+        </div>
+        <div id="course">
+            <h2>Course</h2>
+           <select id="id1">
+            <option >Select Course</option>
+           <option  >C#</option>
+           <option>HTML</option>
+           <option >CSS</option>
+           <option >Javascript</option>
+           <option >Typescript</option>
+           </select><br><br>
+           <button onclick="selectOption()">Add</button>
+           
+        </div>
+        <div id="display">
+            <label>Course ID:</label>
+            <input type="type"/><br><br>
+            <label>Course Name:</label>
+            <input type="type"/><br><br>
+            <button onclick="userDetails()">Home</button>
+        </div>
+    </body>
+</html>
